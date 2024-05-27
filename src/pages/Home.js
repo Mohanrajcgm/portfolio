@@ -11,8 +11,8 @@ function Home() {
       <div className='about'>
         <h2>
           Hi
-          <span className='wave'>👋🏻</span>, My Name is{' '}
-          <span className='name-shadow'>Kavya</span>
+          <span className='wave'>👋🏻</span>, My Name is Mohanraj{' '}
+          <span className='name-shadow'>Mohanraj</span>
         </h2>
 
         <h1>
@@ -39,25 +39,25 @@ function Home() {
             the web development field.
           </p>
           <a
-            href='https://github.com/Kavyakavi09'
+            href='https://github.com/Mohanrajcgm'
             target='_blank'
             rel='noreferrer'>
             <GithubIcon />
           </a>
           <a
-            href='mailto:kavyakaruppusamy09@gmail.com'
+            href='mailto:mohanrajcgm@gmail.com'
             target='_blank'
             rel='noreferrer'>
             <EmailIcon />
           </a>
           <a
-            href='https://www.linkedin.com/in/kavyakaruppusamy/'
+            href='https://www.linkedin.com/in/mohanraj-t-60716824b/'
             target='_blank'
             rel='noreferrer'>
             <LinkedInIcon />
           </a>
           <a
-            href='https://drive.google.com/file/d/1zQd8uDhUfmczY6tC9KItiiUx0jQxkfUO/view?usp=sharing'
+            href='https://drive.google.com/file/d/1ZrfmVXQWyeFZVO5YL4CVVrxBTV4zuYjV/view?usp=drive_link'
             target='_blank'
             rel='noreferrer'>
             <button className='resume-btn'>Resume</button>

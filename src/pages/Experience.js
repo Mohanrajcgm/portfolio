@@ -17,7 +17,7 @@ function Experience() {
           iconStyle={{ background: '#e95bb3', color: '#fff' }}
           icon={<SchoolIcon />}>
           <h3 className='vertical-timeline-element-title'>
-            My Random High School, Random Higher secondary, Random State
+            Maharishi Hr sec school
           </h3>
           <p> High School</p>
         </VerticalTimelineElement>
@@ -27,14 +27,11 @@ function Experience() {
           iconStyle={{ background: '#e95bb3', color: '#fff' }}
           icon={<SchoolIcon />}>
           <h3 className='vertical-timeline-element-title'>
-            My Cool University, Karpagam University, Bharathiar University
+            Sri Sairam Engineering College
           </h3>
-
-          <h4 className='vertical-timeline-element-subtitle'>
-            Bachelor's Degree and Master's Degree
-          </h4>
-
-          <p> Mathematics</p>
+          <p className='vertical-timeline-element-subtitle'>
+            B.E. Mechanical Engineering
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
@@ -42,12 +39,13 @@ function Experience() {
           iconStyle={{ background: '#9e64c4', color: '#fff' }}
           icon={<WorkIcon />}>
           <h3 className='vertical-timeline-element-title'>
-            Focus Edumatics Private Limited
+            Renault Nissan Business center- 1 year
+            APA Engineering Pvt Ltd -2 years
           </h3>
           <h4 className='vertical-timeline-element-subtitle'>
-            Coimbatore, India
+            Chennai, India
           </h4>
-          <p>Online Tutor</p>
+          <p>Compliance Engineer</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

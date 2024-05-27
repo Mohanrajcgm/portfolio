@@ -1,21 +1,19 @@
-import proj1 from '../images/dashboard.png';
+import proj1 from '../images/CRUD.jpg';
 import proj2 from '../images/booking-photo.png';
-import proj3 from '../images/memories.png';
-import proj4 from '../images/youtube.png';
-import proj5 from '../images/webscrapping.png';
-import proj6 from '../images/url.png';
+import proj3 from '../images/cards.jpg';
+import proj4 from '../images/pricecard.jpg';
+
 
 export const ProjectList = [
   {
-    title: 'Inventory Billing App',
+    title: 'CRUD Application',
     description:
-      'In this project I have made inventory management with billing application.Anyone can use to create invoices and download and send invoices to mail to their customers.This project contains latest authentication and authorization.',
+      'user can create the profile, update and delete',
     image: proj1,
     tags: ['Mongo', 'Express', 'React', 'Redux', 'Node'],
     sourceFront:
-      'https://github.com/Kavyakavi09/inventory_billing_app_frontend',
-    sourceBack: 'https://github.com/Kavyakavi09/inventory_billing_app_backend',
-    visit: 'https://invoicybilly.netlify.app/',
+      'https://github.com/Mohanrajcgm/CRUD',
+    visit: 'https://sensational-stroopwafel-22fbea.netlify.app/Portal/Users',
     id: 0,
   },
 
@@ -25,57 +23,29 @@ export const ProjectList = [
       'In this project, Owner can create homes and rooms. Guest can book the house. This project contains authorization and authentication.',
     image: proj2,
     tags: ['React', 'MongoDB', 'Express', 'Node'],
-    sourceFront: 'https://github.com/Kavyakavi09/guest-booking-app-frontend',
-    sourceBack: 'https://github.com/Kavyakavi09/guest-booking-app-backend',
-    visit: 'https://guest-booking.netlify.app/',
+    sourceBack: 'https://github.com/Mohanrajcgm/hallbooking',
+    visit: 'https://hallbooking-kzz4.onrender.com',
     id: 1,
   },
   {
-    title: 'MERN Memories',
+    title: 'ADD to Cart',
     description:
-      'This project contains latest authentication and authorization with pagination and search filter. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.',
+      'this application is an example of e commerce website we can pick the product for purchase ',
     image: proj3,
     tags: ['Mongo', 'Express', 'React', 'Redux', 'Node'],
     sourceFront:
-      'https://github.com/Kavyakavi09/social-madia-app-project-frontend',
-    sourceBack:
-      'https://github.com/Kavyakavi09/social-madia-app-project-backend',
-    visit: 'https://social-media-memories-app.netlify.app/',
+      'https://github.com/Mohanrajcgm/addtocart',
+    visit: 'https://hilarious-dieffenbachia-dc2eea.netlify.app/',
     id: 2,
   },
   {
-    title: 'KavyaTube',
+    title: 'Price card',
     description:
-      'This is the video sharing application like youtube with authentication and authorization. MERN Video sharing application like youtube by using MONGODB, Nodejs and ReactJS.',
+      'the price card is a simple web site and so responsive',
     image: proj4,
     tags: ['React', 'Node', 'Firebase', 'MongoDB', 'Express'],
-    sourceFront: 'https://github.com/Kavyakavi09/youtube-clone-frontend',
-    sourceBack: 'https://github.com/Kavyakavi09/youtube-clone-backend',
-    visit: 'https://kavyatube.netlify.app/',
+    sourceFront: 'https://github.com/Mohanrajcgm/pricecard',
+    visit: 'https://app.netlify.com/sites/glowing-mousse-15a59c/overview',
     id: 3,
-  },
-
-  {
-    title: 'WebScrapping App',
-    description:
-      'This is a webscrapping application by using cheerio to scrap the datas in amazon, flipkart, snapdeal. This is a small scrapping application',
-    image: proj5,
-    tags: ['React', ' mongoDB', 'Node', 'Express', 'Cheerio'],
-    sourceFront:
-      'https://github.com/Kavyakavi09/Webscrapping-Ecommerce-Frontend',
-    sourceBack: 'https://github.com/Kavyakavi09/Webscraping-Ecommerce-Backend',
-    visit: 'https://webscraping-e-commerce-application.netlify.app/',
-    id: 4,
-  },
-  {
-    title: 'URL Shortener App',
-    description:
-      'This is a url shortener application that allows users to short their urls. This project is made with states, authentication and authorization, forgot password mail system and so on...',
-    image: proj6,
-    tags: ['React', 'MongoDB', 'Express', 'Node'],
-    sourceFront: 'https://github.com/Kavyakavi09/Url-shortener-React-frontend',
-    sourceBack: 'https://github.com/Kavyakavi09/UrlShortener-Backend',
-    visit: 'https://shortly-url-shortener-app.netlify.app/',
-    id: 5,
   },
 ];
