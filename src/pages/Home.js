@@ -33,10 +33,8 @@ function Home() {
         </h1>
         <div className='prompt'>
           <p>
-            A software developer with a passion for learning and creating.
-            Basically, I am a Mathematician. Exited to learn programming and
-            happy to learn new technologies. I want to explore my knowledge in
-            the web development field.
+            Exited to learn programming and new technologies. 
+            I want to explore my knowledge in web development field.
           </p>
           <a
             href='https://github.com/Mohanrajcgm'
